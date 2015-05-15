@@ -1,0 +1,33 @@
+*{
+   box-shadow: 5px;
+}
+
+.clearfix:after{
+	content:"";
+	display:block;
+	clear: both;
+}
+.container{
+	background-color: #2385FC;
+	margin: 0 auto;
+	width: 520px;
+
+}
+.block1{
+	color: #0f0;
+	background-color: #000;
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+.block2{
+	background-color: #0ff;
+	height: 300px;
+	width: 300px;
+	float: right;
+}
+.footer{
+	height: 50px;
+	background-color: #888;
+
+}
