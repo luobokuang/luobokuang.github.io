@@ -1,145 +1,69 @@
-/*写css时“，”表示分别设置，空格表示嵌套关系，标签.类名表示同级*/
-body,h1,h2,ul{
-	padding: 0;
-	margin: 0;
-	font: 15px/1.7 arial,"Microsoft Yahei",Helvetica;
-    color: #555;
+{
+   box-shadow: 5px;
 }
-li{
-	list-style: none;
-	float: left;
+body{
+	color: #555;
 }
-.clearfix:after,.clearfix:before{
-	content:"";
-	display:table;/*用这种方法，此处必须用table，用block没用*/
+h1{
+font: 20px/1.5 'Tahoma', 'simsun';
+font-family: '微软雅黑',arial;
+text-align: center;
+font-weight: normal;
+color: #eb3170;
 }
 .clearfix:after{
+	content:"";
+	display:block;
 	clear: both;
 }
-.clearfix{
-    zoom:1;
-}
-
-/*头部*/
 .header{
 	height:50px;
-	width: 100%;
-	/*此处用opacity会使他和他的子元素都发生变化*/
-	background-color:rgba(00,33,66,0.8);
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 2;
+	background-color:#00b0b8; 
 }
 .container{
-	width: 960px;
+	background-color: #2385FC;
 	margin: 0 auto;
-}
-.header .nav{
-	margin: 0;
-	padding: 0;
-	float: left;
-	margin-top: 12px;
-}
-.header .nav li a{
-	margin-right: 4px;
-    font-size: 18px;
-	color: #fff;
-	padding: 8px 5px;
-	border: 1px solid transparent;
-	border-radius: 5px;
-	text-decoration: none;
-}
-.header .nav li.current a{
-	border: 1px solid transparent;
-	background: rgba(225,225,225,.2);
-}
-.header .nav li a:hover{
-    border: 1px solid rgba(255,255,255,.2);	
-}
-
-.header .logo{
-	height: 60px;
-	width: 60px;
-	background-color:#00b0b8;
-	border-radius:50%;
-	z-index: 2;
-	position: fixed;
-	left: 50%;
-	margin-left: -30px;
-	top: 10px;
-	border: 0;
-}
-.header .logo img{
-	margin: auto auto;
-	display: block;
-	width:60px;
-	height: 60px;
-	border:0;
-}
-/*背景*/
-.banner{
-	background: url("./images/banner.png");
-	height:450px;
-	width: 100%;
-	background-size: cover;
-	background-position: 50% 50%;
-    z-index: 1;
-    top: 0;
-    margin: 0;
-}
-h1.tagline{
-	color: #fff;
-	margin-top: 300px;
-	text-align: center;
-	top: 300px;
-	font-size: 30px;
-
-}
-h2.tagline-caption{
-	color:  #fff;
-	text-align: center;
-	opacity: 0.8;
-	font-size: 20px;
-}
-/*内容*/
-.main{
-	padding: 70px 0;
-	background: #ebeced;
-}
-.main .post{
-	float: left;
-	width: 290px;
-	height:420px;
-	background-color: #fff;
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-bottom: 30px;
-	border-radius: 5px;
-	box-shadow: 0 2px 1px rgba(0,0,0,.08);
+	width: 520px;
 	position: relative;
-}
-.main .post .thumbnail{
-	display: block;
-	width: 290px;
-    height: 290px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-.post-info{
-	margin: 24px;
-}
 
-
-.post h1{
-	font-size: 18px;
-	line-height: 1.6;
-	font-weight: normal;
 }
-.post .date{
+.icon{
+	height: 50px;
+	width: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	color:white;
+	background-color:#ff5722;
+	border-radius: 50%;
 	position: absolute;
-	left: 24px;
-	bottom: 10px;
-	font-size: 13px;
-	color: #b5b9bd;
+	left: -30px;
+}
+.block1{
+	color: #0f0;
+	background-color: #000;
+	height: 200px;
+	width: 200px;
+	float: left;
+	position: absolute;
+	top:10px;
+	left:30px;
+}
+.post-img{
+	max-width: 100%;
+	display: block;
+	margin: 30px auto;
+	border: none;
+}
+.block2{
+	background-color: #0ff;
+	height: 300px;
+	width: 300px;
+	float: right;
+	box-shadow: 0 27px 50px 0 rgba(158, 28, 28, 1);
+}
+.footer{
+	height: 50px;
+	background-color: #888;
+
 }
