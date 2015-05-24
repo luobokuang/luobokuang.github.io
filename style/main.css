@@ -96,7 +96,6 @@ a{
     box-shadow: 0 5px 5px rgba(0,0,0,.3)
 }
 .header .logo img{
-	margin: auto auto;
 	display: block;
 	width:60px;
 	height: 60px;
@@ -265,7 +264,7 @@ h2.tagline-caption{
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
     opacity: 0;
-    transitoon:opacity 0.5s ease;
+    transition:opacity 0.5s ease;
 }
 .main .post .thumbnail-image:hover:before{
 	opacity: 0.4;
