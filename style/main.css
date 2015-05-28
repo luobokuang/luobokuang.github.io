@@ -149,7 +149,7 @@ a{
 
 /*背景*/
 .banner{
-	background: url("./images/banner.png");
+	background: url(../images/banner.png);
 	height:450px;
 	background-size: cover;
 	background-position: 50% 50%;
