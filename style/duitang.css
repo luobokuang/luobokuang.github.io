@@ -724,7 +724,7 @@ h3{
 .images-one .images-before:hover .collect1,.images-one .images-before:hover .collect2,.images-one .images-before:hover .collect3{
 	opacity: 1 !important;
 }
-.images-one img{
+.collect1 img,.collect2 img,.collect3 img{
 	border-radius: 3px;
 }
 .more{
