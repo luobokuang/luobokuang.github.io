@@ -203,8 +203,8 @@ h2.tagline-caption{
 .main .post{
 	float: left;
 	width: 290px;
-	height:200px;
-	background-color: #fff;
+	height:280px;
+	background: #cfe4d3;
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-bottom: 30px;
@@ -215,7 +215,7 @@ h2.tagline-caption{
 @media(max-width: 970px){
 	.main .post{
 		width: 29.33%;
-		height: 150px;
+		height: 260px;
 		margin-left: 2%;
 	    margin-right: 2%;
 	    margin-bottom: 10px;
@@ -224,7 +224,7 @@ h2.tagline-caption{
 @media(max-width: 500px){
 	.main .post{
 		width: 46%;
-		height: 100px;
+		height: 360px;
 		margin-left: 2%;
 	    margin-right: 2%;
 	    margin-bottom: 5px;
@@ -233,7 +233,7 @@ h2.tagline-caption{
 .main .post .thumbnail{
 	display: block;
 	width: 290px;
-    height: 290px;
+    height: 200px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
