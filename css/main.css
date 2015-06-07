@@ -203,7 +203,7 @@ h2.tagline-caption{
 .main .post{
 	float: left;
 	width: 290px;
-	height:420px;
+	height:200px;
 	background-color: #fff;
 	margin-left: 15px;
 	margin-right: 15px;
@@ -215,7 +215,7 @@ h2.tagline-caption{
 @media(max-width: 970px){
 	.main .post{
 		width: 29.33%;
-		height: 350px;
+		height: 150px;
 		margin-left: 2%;
 	    margin-right: 2%;
 	    margin-bottom: 10px;
@@ -224,7 +224,7 @@ h2.tagline-caption{
 @media(max-width: 500px){
 	.main .post{
 		width: 46%;
-		height: 350px;
+		height: 100px;
 		margin-left: 2%;
 	    margin-right: 2%;
 	    margin-bottom: 5px;
