@@ -1156,6 +1156,259 @@ img{
 .sort-RiFoot{
 	width: 300px;
 	margin-top: 10px;
-	margin-left: -10px;
+	margin-left: 0px;
 	background: #fff;
 }
+ /*相关链接*/
+.flink{
+ 	width: 1190px;
+}
+.flink img:hover{
+	opacity: 0.8;
+}
+.flink .border-ex{
+	border-left:  1px solid #e8e8e8;
+}
+.flink-co{
+	float: left;
+	width: 169px;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+	padding: 14px;
+}
+.flink-co:hover{
+	border: 1px solid #f40;
+}
+.flink-co-hd a{
+    display: block;
+}
+.flink-co-hd h3{
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 8px;
+    color: #3c3c3c;
+    font-size: 16px;
+}
+.flink-co-main-a{
+	display: block;
+	background: #F5F5F5;
+}
+.flink-co-hd img{
+	margin-top: 6px;
+}
+.flink-co-main span{
+	display: block;
+	width: 169px;
+	padding-bottom: 8px ;
+	font-weight: bold;
+	font-size: 12px;
+    color: #3C3C3C;
+    text-align: center;
+}
+.flink-co-main span:hover{
+	color: #f40;
+}
+.flink-co-main label{
+	color: #9C9C9C;
+	font-weight: normal;
+}
+.flink-co-bo{
+	width: 169px;
+	margin-top: 4px;
+}
+.flink-co-bo-a1{
+	display: inline-block;
+	width: 80px;
+	margin-right: 4px;
+	color: #3C3C3C;
+	text-align: center;
+}
+.flink-co-bo-a2{
+	display: inline-block;
+	width: 80px;
+	color: #3C3C3C;
+	text-align: center;
+}
+.flink-co ul{
+	width: 172px;
+}
+.flink-co ul li{
+	margin-top: 10px;
+}
+.flink-co ul span{
+	color: #e1e1e1;
+}
+.shoppinghd{
+	width: 1190px;
+	margin-top:14px;
+}
+.shoppinghd a{
+	display: block;
+	float: left;
+}
+.shoppinghd h3{
+	float: left;
+	width: 62px;
+	height: 20px;
+	/*为什么取值为9999*/
+	text-indent: -9999px;
+	background: url(../images/shoppinghd-bg.png);
+}
+.shoppinghd-code{
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.shoppinghd .left-mar{
+	margin-left: 1056px;
+}
+.shopping{
+	width: 1190px;
+}
+.shopping-a{
+	float: left;
+	display: block;
+	position: relative;
+	width: 148px;
+	height:180px;
+	margin-right: 12px;
+	margin-top: 8px;
+}
+.shopping-aSize{
+	width: 180px !important;
+	height: 180px !important;
+	margin-left: 12px;
+}
+.shopping-imgSize{
+	width: 180px !important;
+	height: 180px !important;
+}
+.shopping-img{
+    width: 148px;
+    height: 180px;
+}
+.shopping-a:hover .shopping-img{
+	opacity: 0.8;
+}
+.shopping-a:hover .shopping-span{
+	background: #fff;
+	color: #f40;
+}
+.shopping-span{
+	position: absolute;
+	display: block;
+	top:155px;
+	width: 100%;
+	height: 25px;
+    background: rgba(255,255,255,0.8);
+    color: #3C3C3C;
+    text-align: center;
+    line-height: 25px;
+}
+.channel{
+	width: 1190px;
+	margin-top: 14px;
+}
+.channel a:hover img{
+	opacity:0.8;
+}
+.channel a:hover span{
+    color: #f40;
+}
+.channel .border-ex{
+	border-left: 1px solid #e8e8e8;
+}
+.channel .flink-co:hover{
+    border: 1px solid #f40;
+}
+.channel .flink-co-main-a{
+	background: #fff !important;
+}
+.channel .flink-co-main-a span{
+	font-size: 12px;
+	font-weight: normal;
+}
+.singleHot{
+	width: 1190px;
+	margin-top: 10px;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+}
+.singleHot-kind{
+	float: left;
+	width: 395px;
+	height: 396px;
+	border-right: 1px solid #e8e8e8;
+}
+.singleHot-kind-le{
+	float: left;
+	width: 214px;
+	height: 376px;
+	padding: 10px;
+	border-right: 1px solid #e8e8e8;
+}
+.singleHot-kind a{
+	display: block;
+}
+.singleHot-kind-le-price span,.singleHot-kind-le-price label{
+	color: #f40;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: arial;
+}
+.singleHot-kind-le-amount{
+    color: #9C9C9C;
+}
+.singleHot-kind-le-amount:hover{
+    color: #9C9C9C;
+}
+.singleHot-kind-le-des{
+	margin-top: 10px;
+	color: #6C6C6C;
+}
+.singleHot-kind-le-des:hover{
+	color: #6C6C6C;
+}
+.singleHot-kind-le-info{
+	float: left;
+	margin-top: 56px;
+	margin-right: 10px;
+	color:#9C9C9C;
+}
+.singleHot-kind-le-info:hover{
+	color:#9C9C9C; 
+}
+.singleHot-kind-ri{
+	float: left;
+	width: 140px;
+}
+.singleHot-kind-ri-t{
+	width: 140px;
+	height: 180px;
+    padding: 9px;
+}
+.singleHot-kind-ri .border-ex{
+	border-bottom: 1px solid #e8e8e8;
+}
+.singleHot-kind-le-amount2{
+	color: #9C9C9C;
+}
+.singleHot-kind-le-amount2:hover{
+	color: #9C9C9C;
+}
+.bottom{
+	width: 1190px;
+	border-bottom: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+}
+.bottom-img{
+	float: left;
+	width: 375px;
+	padding: 10px;
+	border-right:  1px solid #e8e8e8;
+}
+.bottom-img:hover{
+	border:1px solid #f40;
+}
+/*相关链接*/
