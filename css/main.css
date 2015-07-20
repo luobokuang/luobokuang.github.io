@@ -250,8 +250,6 @@ h2.tagline-caption{
 跳出一般文档流，不被后面的img覆盖*/
 .main .post .thumbnail-image{
 	display: block;
-	width: 290px;
-    height: 200px;
 	position: relative;
 }
 /*伪类默认为行内元素*/
