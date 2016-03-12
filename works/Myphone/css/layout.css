@@ -1,0 +1,253 @@
+*:focus{
+	outline: none;
+}
+body,div,ul,li,h3,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font:12px/1.7 tahoma,arial,sans-serif;
+    letter-spacing: 1px;
+	background: #f1f2f3;
+	color: #999;
+}
+::selection {
+  color: #fff;
+  color: rgba(255,255,255,.85);
+  background: #cee3f2;
+}
+.clearfix:after,.clearfix:before{
+	content:"";
+	display:table;/*用这种方法，此处必须用table，用block没用*/
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+    *zoom:1;
+}
+.container{
+	width: 1100px;
+	margin: 0 auto;
+}
+.line{
+	float: left;
+	color: #E5E5E5
+}
+li{
+	list-style: none;
+	float: left;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	color: #009FC6;
+}
+img{
+	border: 0;
+}
+
+/*layout.css*/
+header{
+	width: 100%;
+	height:26px;
+	line-height:26px;
+	border: 1px solid  #E5E5E5;
+	background: #f1f2f3;
+}
+.wel{
+    float: left;
+    width: 960px;
+}
+.login {
+    float: left;
+    width: 40px;
+    height: 24px;
+    background: #ff4466;
+    border-radius: 3px;
+    margin-right: 4px;
+    text-align: center;
+}
+.login a{
+	    color: #fff;
+}
+.register{
+	float: left;
+	margin:0 4px;
+
+}
+.cart{
+	float: left;
+	margin-left: 4px;
+}
+.register a,.cart a{
+	color: #000;
+}
+.login a:hover,.register a:hover,.cart a:hover{
+	color: #009FC6;
+}
+.top{
+	width: 100%;
+	height: 90px;
+	background: #fff;
+	border-bottom: 1px solid  #E5E5E5;
+}
+.logo{
+	float: left;
+}
+.search{
+	float: left;
+}
+.search form{
+	border:1px solid;
+    border-color: #E0E0E0;
+    width: 366px;
+    height: 32px;
+    margin-top: 16px;
+    margin-left: 172px;
+    display: inline-block;
+    position: relative;
+}
+.search .text{
+	position: absolute;
+	left: 4px;
+	bottom: 4px;
+	height: 22px;
+	width:328px;
+	color: #666;
+	border: 0;
+}
+.search .btn{
+	position: absolute;
+	right:8px;
+	top: 2px;
+	height: 28px;
+	width: 20px;
+	border: none;
+	background: url(../images/search.png) no-repeat 0 4px;
+}
+.search-hot{
+   margin-left: 160px;
+}
+.search-hot li{
+	float: left;
+	margin: 0 10px;
+}
+.search-hot li a{
+	 color:#000;
+    font-size: 12px; 
+}
+.search-hot li a:hover{
+	color: #009FC6;
+}
+.search-hot .a-hot{
+	color: #009FC6;
+}
+.nav{
+	height: 30px;
+	background: #fff;
+	border-bottom: 1px solid #999;
+}
+.nav li{
+	float: left;
+	width: 250px;
+}
+.nav li a{
+    color:#000;
+    font-size: 20px; 
+    font-weight: bold;
+}
+.nav li a:hover{
+	color: #0085D7;
+}
+.nav-act{
+	display: block;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	background: #f4f4f4;
+}
+.nav{
+	height: 30px;
+	background: #fff;
+	border-bottom: 1px solid #999;
+}
+.nav li{
+	float: left;
+	width: 250px;
+}
+.nav li a{
+    color:#000;
+    font-size: 20px; 
+    font-weight: bold;
+}
+.nav li a:hover{
+	color: #0085D7;
+}
+.nav-act{
+	display: block;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	background: #f4f4f4;
+}
+
+
+
+
+
+/*脚部、、、、、、、、、、*/
+.footer{
+  	height: 270px;
+  	margin-bottom: 0;
+  	background: #e1e2e3;
+}
+.footer .footer-one{
+	float: left;
+  	width: 198px;
+  	height:160px;
+  	margin-top: 22px ;
+  	padding: 0 0 0 20px;
+  	border-left: 1px solid rgba(0,0,0,0.1);
+}
+.footer .footer-title{
+    width: 179px;
+    padding: 8px 0;
+    color: #444;
+}
+.footer ul li a{
+  	display: inline-block;
+  	width: 80px;
+  	height: 30px;
+  	line-height: 1.5;
+  	color: #666;
+}
+.code{
+  	width: 88px;
+  	height: 88px;
+  	margin:5px 15px 5px 45px;
+
+}
+.code-info{
+  	width: 170px;
+    text-align: center;
+ }
+ 
+.copyright{
+ 	margin-left: 450px;
+ 	margin-top: 30px;
+	height: 40px;
+	
+}
+.copyright span{
+	float: left;
+	font-size: 13px;
+    color: #888888;
+    line-height: 47px;
+}
+.copyright img{
+	margin-left: 10px;
+}
+
+/*layout.css*/

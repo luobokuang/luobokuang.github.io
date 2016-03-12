@@ -1,0 +1,265 @@
+@charset "utf-8";
+body {
+	background-color: #F1F2F3;
+}
+#place {
+	height: 39px;
+	width: 1100px;
+	font-family: "微软雅黑";
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+#place #clear {
+	padding: 0px;
+	height: 0px;
+	width: 1100px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+#place #pll {
+	margin: 0px;
+	padding: 0px;
+	height: 34px;
+	width: 1100px;
+}
+#detail #left #up #u2 #a {
+	height: 70px;
+	width: 450px;
+}
+#detail #left #up #u2 #b {
+	background-color: #F1F2F3;
+	height: 120px;
+	width: 450px;
+}
+#detail #left #up #u2 #c {
+	height: 110px;
+	width: 450px;
+}
+#detail #left #up #u2 #a #aa {
+	height: 35px;
+	width: 450px;
+	margin-top: 15px;
+}
+#detail #left #up #u2 #a #ab {
+	height: 15px;
+	width: 450px;
+}
+#detail #left #up #u2 #a #aa h1 {
+	color: #000;
+	font-family: "宋体";
+	font-size: 18px;
+	line-height: 1.5em;
+	text-align: left;
+	letter-spacing: 0px;
+	height: 35px;
+	width: 450px;
+}
+#detail #left #up #u2 #b #ba {
+	height: 40px;
+	width: 450px;
+	padding-top: 10px;
+}
+#detail #left #up #u2 #b #bb {
+	height: 50px;
+	width: 450px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#detail #left #up #u2 #b #ba #baa {
+	float: left;
+	height: 50px;
+	width: 100px;
+}
+#place #pll #ee{
+	margin: 0px;
+	padding: 0px;
+	height: 34px;
+	width: 34px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	float: left;
+}
+#detail #left #up #u2 #b #ba #bab {
+	float: left;
+	height: 50px;
+	width: 300px;
+	clear: right;
+}
+#detail #left #up #u2 #b #ba #baa h2 {
+	font-family: "宋体";
+	font-size: 18px;
+	color: #000;
+	text-indent: 17px;
+	float: left;
+}
+#detail #left #up #u2 #b #bb #bba h2 {
+	font-family: "宋体";
+	font-size: 18px;
+	color: #000;
+	text-indent: 17px;
+}
+#detail #left #up #u2 #b #bb #bba {
+	float: left;
+	height: 50px;
+	width: 100px;
+}
+#detail #left #up #u2 #b #bb #bbb {
+	float: left;
+	height: 50px;
+	width: 300px;
+}
+#detail #left #up #u2 #b #bb #bbb font {
+	padding-top: 5px;
+}
+#detail #left #up #u2 #c #ca {
+	height: 25px;
+	width: 450px;
+	margin-top: 4px;
+}
+#detail #left #up #u2 #c #ca #caa {
+	float: left;
+	height: 25px;
+	width: 100px;
+	text-indent: 17px;
+}
+#detail #left #up #u2 #c #ca #cab {
+	float: left;
+	height: 25px;
+	width: 350px;
+}
+#detail #left #up #u2 #c #cb #cba {
+	float: left;
+	height: 36px;
+	width: 100px;
+	text-indent: 17px;
+}
+#detail #left #up #u2 #c #cb #cbb {
+	float: left;
+	height: 36px;
+	width: 150px;
+}
+#detail #left #up #u2 #c #cb {
+	height: 36px;
+	width: 450px;
+	margin-top: 6px;
+}
+
+
+#place #pll #ff{
+	height: 20px;
+	width: 1000px;
+	float: left;
+	margin-top: 14px;
+}
+#detail #left #up #u2 #c #ca #cab table {
+	float: left;
+	border: 1px solid #CCC;
+}
+
+#detail {
+	margin-right: auto;
+	margin-top: 4px;
+	margin-left: auto;
+	height: 2200px;
+	width: 1100px;
+}
+#detail #left {
+	height: 2120px;
+	width: 720px;
+	float: left;
+}
+#detail #right {
+	float: left;
+	height: 1340px;
+	width: 360px;
+}
+#detail #left #up {
+	height: 300px;
+	width: 720px;
+	background-color: #FFF;
+}
+#detail #left #up #u1 {
+	height: 300px;
+	width: 255px;
+	float: left;
+}
+#detail #left #up #u1 img {
+	margin-top: 31px;
+	margin-right: 8px;
+	margin-bottom: 30px;
+	margin-left: 8px;
+}
+#detail #left #up #u2 {
+	height: 300px;
+	width: 450px;
+	float: left;
+}
+
+/*继续，以上为up*/
+
+/*以上要改*/
+#detail #left #down {
+	background-color: #FFF;
+	height: 1800px;
+	width: 720px;
+	margin-top: 20px;
+}
+#detail #left #down #d1 {
+	background-color: #e2e2e2;
+	height: 60px;
+	width: 720px;
+}
+#detail #left #down #d1 table tr td {
+	text-align: center;
+	vertical-align: middle;
+	height: 58px;
+	width: 142px;
+	border: 1px solid #CCC;
+}/*以上为down*/
+#detail #right #uup {
+	height: 300px;
+	width: 360px;
+}
+#detail #right #uup #p1 {
+	background-color: #FFF;
+	height: 300px;
+	width: 320px;
+	margin-left: 40px;
+}
+#detail #left #down #d2 p font {
+	font-family: "宋体";
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+}
+#detail #left #up #u2 #c #cb #cbc {
+	float: left;
+	height: 36px;
+	width: 200px;
+}
+#detail #left #up #u2 #c #cb #form1 input {
+	font-family: "宋体";
+	font-size: 24px;
+	color: #000;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	vertical-align: 50%;
+	float: left;
+}
+#detail #left #up #u2 #c #cb #form1 img {
+	float: left;
+}
+
+
+
+a:link{
+	color: #000;
+}
+a:visited{
+	color: #000;
+}
