@@ -1,0 +1,38 @@
+body{
+		background: #eee;
+}
+.title{
+    background: #f8f8f8;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.title p{
+	height: 20px;
+    color: #666;
+    line-height: 20px;
+    padding-left: 20px;
+    border-left: 4px solid #999;
+}
+.details{
+    margin: 20px 20px;
+    padding: 20px;
+	background: #fff;
+}
+.details table{
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+}
+.details th{
+	background: #eee;
+}
+.details td{
+	height: 30px;
+	border: 1px solid #ccc;
+}
+.add{
+	margin-left: 50px;
+}
