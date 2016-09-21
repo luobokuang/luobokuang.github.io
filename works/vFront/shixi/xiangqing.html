@@ -1,0 +1,160 @@
+<%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>无标题文档</title>
+<style type="text/css">
+body,td,th {
+	font-size: 18px;
+	color: #000;
+}
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.left {
+	text-align: left;
+}
+.two {
+	background-color: #7FFF55;
+}
+.two {
+	text-align: center;
+}
+.one {
+	
+}
+.one {
+	background-color: #7FFF55;
+	border-radius:9px;
+}
+.one {
+	text-align: center;
+}
+.left {
+	width: 1250px;
+}
+.left {
+	text-align: center;
+	margin-left: 30px;
+}
+</style>
+
+</head>
+
+<body>
+<table width="1038" height="386" border="0" align="center">
+  <tr bgcolor="#F6F6F6">
+    <td height="28" colspan="3">手机客户端|微信&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;借款利率|帮助中心|我的账户</td>
+ </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="75" colspan="3"><img src="images/1.png" width="244" height="70" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="shouye.jsp">首页</a> &nbsp;&nbsp;&nbsp;<a href="daikuan.jsp">我要贷款</a>&nbsp;&nbsp;<a href="geren.jsp">个人账户</a></td>
+  </tr>
+  <tr>
+    <td width="244" height="249"><table width="239" height="175" border="0">
+      <tr>
+        <td width="229" height="44"><div class="one">学员必读</div></td>
+      </tr>
+      <tr>
+        <td height="44"><div class="one">最新兼职</div></td>
+      </tr>
+      <tr>
+        <td height="44"><div class="one">最新公告</div></td>
+      </tr>
+      <tr>
+        <td height="44"><div class="one">新闻中心</div></td>
+      </tr>
+    </table></td>
+    <td width="497"><img src="images/jphoto4.jpg" width="493" height="239" /></td>
+    <td width="283"><table width="243" height="189" border="0">
+      <tr>
+        <td><div class="one">我要登录</div></td>
+      </tr>
+      <tr>
+        <td><div class="one">我要抢单</div></td>
+      </tr>
+      <tr>
+        <td><div class="one">切换城市</div></td>
+      </tr>
+      <tr>
+        <td><div class="one">最新兼职</div></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr bgcolor="#FFFF55" align="center">
+    <td height="22" colspan="3" >最新兼职信息  </td>
+  </tr>
+</table>
+  <form action="" name="formone">
+  <table align="center" width="1038" height="386" border="0" >
+  <tr bgcolor="#FFFFFF">
+  <td>兼职编号：</td>
+    <td>001<input type="hidden" name="b-hidden" value="001" /></td>
+   <td></td>
+   
+  <tr bgcolor="#FFFFFF">
+    <td>联系人:</td>
+    <td>李姐<input type="hidden" name="b-hidden" value="李姐" /></td>
+    <td></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td>所在区域：</td>
+    <td>人民公园<input type="hidden" name="c-hidden" value="人民公园" /></td>
+    <td></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td>学员性别：</td>
+    <td>女<input type="hidden" name="d-hidden" value"女"  /></td>
+    <td>
+    </td>
+  </tr>
+  
+  <tr bgcolor="#FFFFFF">
+    <td>学员年级：</td>
+    <td>高三<input type="hidden" name="e-hidden"  value"高三" /></td>
+    <td></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td>求教学科：</td>
+    <td>英语<input type="hidden" name="f-hidden" value"英语" /></td>
+    <td></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td>家教老师报酬：</td>
+    <td>每小时50元<input type="hidden" name="g-hidden" value="每小时50元"  /></td>
+    <td></td>
+  </tr>
+   <tr bgcolor="#FFFFFF">
+    <td>授课时间安排：</td>
+    <td><div id ="two">每周7次，每次两个小时（7:00-9:00）<input type="hidden" name="h-hidden"  value="每周7次，每次两个小时（7:00-9:00）"/></div></td>
+    <td></td><tr bgcolor="#FFFFFF">
+    <td>学员情况描述：</td>
+    <td><div id ="two">无法掌握知识要领，没有兴趣<input type="hidden" name="i-hidden"  value="无法掌握知识要领，没有兴趣"/></div></td>
+    <td></td>
+  </tr>
+  </tr> <tr bgcolor="#FFFFFF">
+    <td>对教员的要求</td>
+    <td><div id ="two">要女老师，活泼开朗，有经验的<input type="hidden" name="j-hidden" value="要女老师，活泼开朗，有经" /></div></td>
+    <td></td>
+  </tr><tr bgcolor="#FFFFFF">
+  <td height="54">在线预约：</td>
+   <td colspan="2" align="center">
+      <input type="submit" name="a" id="a" value="我要预约" />
+</form></td>
+   </tr>
+  </table>
+<div class="left"><img src="images/jz66.jpg" width="248" height="317"/><img src="images/66.jpg" width="263" height="319" /><img src="images/ianzhi888.jpg" width="250" height="319" /><img src="images/jianzhi33.jpg" width="239" height="319" /></div>
+<p>&nbsp;</p>
+</body>
+</html>

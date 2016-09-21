@@ -1,0 +1,64 @@
+.help{
+	padding-top: 20px;
+}
+.hleft{
+	float: left;
+}
+.hleft li{
+	float: none;
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+    padding-left: 20px;
+    margin-top: 3px;
+	background: #dcdcdc;
+	transition:background 0.3s ease-out;
+	color: #333;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+}
+.hright{
+	float: left;
+	margin-left: 20px;
+	padding: 20px;
+	width: 820px;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+.hright h1{
+	color:#42CC79;
+	font-size: 22px;
+}
+.hright .line3{
+	margin:0;
+	width: 860px;
+	height: 2px;
+	margin: 10px auto;
+	border-bottom:1px dashed #ddd; 
+}
+.hright h3{
+	height: 30px;
+	color: #444;
+	font-size: 18px;
+	padding-left: 30px;
+	background: url(../images/ring.png) no-repeat 10px 10px;
+    cursor: pointer;
+}
+.hright h4{
+	color: #0080FF;
+	font-weight: normal;
+}
+.hright p{
+	margin-top: 20px;
+	color: #444;
+	font-size: 14px;
+}
+.hright p img{
+	width: 800px;
+	height: 400px;
+}
+.hright .de{
+	height:0;
+	overflow: hidden;
+}

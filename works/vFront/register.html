@@ -1,0 +1,77 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>用户注册</title>
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+<link rel="stylesheet" type="text/css" href="css/register.css">
+<script type="text/javascript">
+	function changeCode() {
+		//alert("hello");
+		document.getElementById("rc").src = 'imgCode?ts='
+				+ new Date().getTime();
+	};
+</script>
+</head>
+<body>
+
+	<div class="welcome">
+		<div class="container">
+			<p>
+				<a href="index.jsp"><img class="logo" src="images/logo.png"></a>
+			</p>
+			<p class="wereg">注册</p>
+		</div>
+	</div>
+	<div class="reg-box">
+		<div class="leftReg clearfix">
+			<div class="title clearfix">
+				<div class="title_reg">用户注册</div>
+				<div class="title_regr">
+					已有帐号？<a class="aa" href="login.jsp">直接登录</a>
+				</div>
+			</div>
+			<div class="formReg">
+				<form action="URegister" method="post">
+					<ul>
+						<li><pre>会员等级：</pre><input type="radio" value="c" name="level"
+							checked="checked" class="rad"> <pre>普通会员</pre></li>
+						<li><label>*</label> <pre>姓 名：</pre> <input type="text"
+							name="name" id="name" placeholder="请输入11位有效手机号" /></li>
+						<li><label>*</label> <pre>手 机 号：</pre> <input type="text"
+							name="phone" id="phone" placeholder="请输入11位有效手机号" /></li>
+						<li><label>*</label> <pre>邮箱：</pre> <input type="text"
+							name="email" id="email" placeholder="请输入您当前使用的有效邮箱！" /></li>
+						<li><label>*</label> <pre>请设置密码：</pre> <input type="password"
+							name="password" id="password"
+							placeholder="6-20位字符，建议由数字、字母及符号两种以上组合"></li>
+						<li><label>*</label> <pre>请确认密码：</pre> <input type="password"
+							name="repassword" id="repassword" placeholder="请再次输入密码"></li>
+						<li><label>*</label> <pre>验证码：   </pre> <input type="text"
+							name="inputCode" id="code" placeholder="请输入验证码">&nbsp;&nbsp;<img
+							src="imgCode" id="rc" onclick="changeCode()" title="看不清？单击换一张图片" /></li>
+						<li>
+							<input type="checkbox" class="t1" checked="checked"><div class="tiao">同意
+							<a href="">注册协议</a>
+							</div></li>
+						<li><input type="submit" name="submit" id="submit"
+							value="立即注册" class="submit"></li>
+					</ul>
+				</form>
+			</div>
+		</div>
+		<div class="rightReg"></div>
+
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</body>
+</html>

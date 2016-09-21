@@ -1,0 +1,155 @@
+.borrow{
+	font-family: "微软雅黑";
+	color: #666;
+}
+.borrow .step li{
+	width: 364px;
+	height: 50px;
+	margin-top: 50px;
+	margin-right: 2px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+}
+.borrow .pass{
+	width: 360px !important;
+	height: 46px !important;
+	background: #fff !important;
+	border: 2px solid #3ACA8F;
+}
+.borrow .left-radius{
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.borrow .right-radius{
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.borrow .active{
+	color: #fff;
+	background: #3ACA8F;
+}
+.borrow .nor{
+	color: #666;
+	background: #B7B7B7;
+}
+.borrow .step-con{
+	margin-top: 50px;
+	padding: 50px 100px;
+	background: #fff;
+}
+.borrow .step-con span{
+	display: inline-block;
+	width: 110px;
+	font-size: 20px;
+	margin: 0 10px 0 20px;
+}
+.borrow .step-con .bor{
+	height: 46px;
+	padding: 0 20px;
+	font-size: 20px;
+	border: 1px solid #DEDEDE;
+	border-radius: 3px;
+}
+.borrow .jisuan{
+	margin: 30px auto 50px auto;
+	height: 126px;
+	width: 660px;
+	border: 1px solid #DEDEDE;
+	border-radius: 3px;
+}
+.borrow .jisuan li{
+	width: 180px;
+	height: 80px;
+	padding: 10px;
+	margin-top: 16px;
+	text-align: center;
+}
+.borrow .jisuan li label{
+	width: 150px;
+	border: none;
+	text-align: center;
+	color: #00ABD8;
+	font-size: 30px;
+}
+.borrow .jisuan li .jisuanNum{
+	visibility: hidden;
+}
+.borrow .jisuan .y-line{
+	width: 0 !important;
+    border-right: 1px solid #DEDEDE;
+}
+.borrow .next{
+	width: 260px;
+	height: 56px;
+	margin-left: 250px;
+	background: #28DFAE;
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 26px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+/* steptwo */
+.borrow .bg{
+	background: #F7F7F7 !important;
+	border: 1px solid #eee;
+}
+.borrow .renzheng{
+	margin:30px auto;
+	border: 1px solid #eee;
+	padding: 10px 20px;
+	background: #fff;
+}
+.borrow .renzheng .title{
+	margin-bottom: ;
+	height: 40px;
+	width: 100%;
+	font-size: 20px;
+	color: #3ACA8F;
+	border-bottom: 1px solid #ccc;
+}
+.borrow .renzheng-left{
+	float: left;
+	margin-right: 50px;
+}
+.borrow .renzheng-right{
+	float: left;
+}
+.borrow .renzheng .input{
+	width: 210px;
+	height: 46px;
+	margin-top: 20px;
+	margin-right: 10px;
+	padding-left: 20px;
+	font-size: 16px;
+	border: 1px solid #3ACA8F;
+	border-radius: 3px;
+}
+.borrow .renzheng-right li{
+	margin-right: 30px;
+	background: url(../images/upFile.png) no-repeat;
+}
+.borrow .renzheng .identity{
+	width: 120px;
+	height: 30px;
+	padding-top: 120px;
+	text-align: center;
+	background: url(../images/upFile.png) no-repeat;
+    border:none;
+}
+.borrow .renzheng-right h5{
+	text-align: center;
+	font-weight: normal;
+	font-size: 18px;
+	margin: 0;
+}
+.borrow .renzheng-left h4{
+	color: #f00;
+	font-size: 14px;
+	margin-left: 150px;
+}
+
+/* stepthree */

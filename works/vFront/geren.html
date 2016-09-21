@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人中心</title>
+	<link rel="stylesheet" type="text/css" href="css/geren.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/geren-left.css">
+	<link href="css/zzsc.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="Font-Awesome-3.2.1/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/zzsc.js"></script>
+	<script type="text/javascript" src="js/geren-left.js"></script>
+	<script type="text/javascript" src="js/geren.js"></script>
+</head>
+<body>
+<div class="top">
+	<div class="container">
+		<div class="wel">您好，18712737580 (>ω<)</div>
+		<ul>
+			<li><a href="#">利率表</a></li>
+			<li>|</li>
+			<li><a href="#">帮助中心</a></li>
+			<li>|</li>
+			<li><a href="#">关于我们</a></li>
+		</ul>
+	</div>
+</div>	
+<div class="nav">
+	<div class="container clearfix">
+		<div class="logo"><img src="images/logo.png" alt="校园 V 速贷"></div>
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="borrow-stepone.html">我要贷款</a></li>
+			<li class="active"><a href="geren.html">我的主页</a></li>
+		</ul>
+	</div>
+</div>
+<div class="main">
+	<div class="container clearfix">
+		<!-- 左边导航 -->
+		<div class="left">
+			<div class="user-img"><img src="images/user-img-no.jpg" alt="您的头像"></div>
+			<div class="user-name">18712737580</div>
+			<div class="div1">
+			<div class="left_top">
+				<img src="images/bbb_01.jpg"><img src="images/bbb_02.jpg" id="2"><img src="images/bbb_03.jpg"><img src="images/bbb_04.jpg"> 
+			</div>
+			<div class="geren-cen"><a href="geren.html">我的账户</a></div>
+			  <div class="div2"><div class="jbsz"> </div>资金管理</div>
+			      <div class="div3">
+			<ul>
+					<li> <a href="#">充值</a></li>
+					<li> <a href="#">提现</a></li>
+			        <li> <a href="#">银行卡列表</a></li>
+			        <li> <a href="#">资金日志</a></li>
+			</ul>
+			  </div>
+			    <div class="div2"><div class="xwzx"> </div>借款管理</div>
+			      <div class="div3">
+			      <ul>
+					<li> <a href="#">偿还贷款</a></li>
+					<li> <a href="#">我的贷款</a></li>
+			        <li> <a href="#">贷款统计</a></li>
+			        </ul>
+			  </div>
+			    <div class="div2"><div class="zxcp"> </div>账户管理</div>
+			      <div class="div3">
+			      <ul>
+					<li><a href="#">个人资料</a></li>
+					<li> <a href="#">认证信息</a></li>
+			         <li> <a href="#">安全信息</a></li>
+			         </ul>
+			  </div>
+			  <div class="div2"><div class="lmtj"> </div> 互动设置</div>
+			      <div class="div3">
+			      <ul>
+					<li> <a href="#">个人消息</a></li>
+			         </ul>
+			  </div>
+			</div>
+        </div>
+
+
+
+
+		<div class="right">
+			 <div id="divright">
+			 	<!-- 先显示的内容 -->
+			 	 <div class="right-con1">
+			 	 	<div class="yu clearfix">
+			 	 	<div class="yue">
+			 	 		<h1>可用余额（元）</h1>
+			 	 		<h2>0.00</h2>
+			 	 	</div>
+			 	 	<div class="yue">
+			 	 		<h1>账户余额（元）</h1>
+			 	 		<h2>0.00</h2>
+			 	 	</div>
+			 	 	<div class="yue">
+			 	 		<h1>冻结余额（元）</h1>
+			 	 		<h2>0.00</h2>
+			 	 	</div>
+			 	 	</div>
+			 	 	<div class="yue-act clearfix">
+			 	 		<a class="czh" onclick="chongzhi();" href="#">充值</a>
+			 	 		<a class="tx" href="#" onclick="tixian();">提现</a>
+			 	 	</div>
+			 	 	<div class="line"></div>
+			 	 	<div class="xq clearfix">
+			 	 		<h3>账户详情</h3>
+			 	 		<ul class="clearfix">
+			 	 			<li>贷款总额：￥0.00</li>
+			 	 			<li>借款笔数：0笔</li>
+			 	 			<li>已还本息：￥0.00</li>
+			 	 			<li>待还本息： ￥0.00</li>
+			 	 		</ul>
+			 	 		<ul>
+			 	 			<li>已付管理费：￥0.00</li>
+			 	 			<li>待付管理费：￥0.00</li>
+			 	 			<li>逾期本息：￥0.00</li>
+			 	 			<li>逾期费用：￥0.00</li>
+			 	 		</ul>
+			 	 	</div>
+			 	 	<div class="line"></div>
+			 	 	<div class="xq clearfix">
+			 	 		<h3>近期待还款</h3>
+			 	 		<div class="jqdhk">
+			 	 			<h4>暂无记录</h4>
+			 	 		</div>
+			 	 	</div>
+
+			 	 	<br><br><br><br><br>
+			 	 </div>
+			 	 <!-- 	单击后改变的内容 -->
+			 	<!--  内容一 -->
+			 	<div class="right-con">
+				    <div class="chongzh">
+				    	<div class="right-con2">
+				    		<h3>会员充值</h3>
+				    		<div class="tips clearfix">
+				    			<ul>
+				    				<li>为保障您的资金财产安全，请务必进行实名认证，平台仅支持同名卡充值与提现。</li>
+				    				<li>如果充值金额没有及时到账，请和客服联系。</li>
+				    			</ul>
+				    		</div>
+				    		<div class="chongzhi">
+				    			<form action="post">
+				    				<span>充值金额</span>
+				    				<input type="text" name="inNum" class="inNum">
+				    				<input type="submit" value="确认支付" class="submit">
+				    			</form>
+				    		</div>
+				    	</div>
+				    	<br><br><br><br><br>
+				    </div>　	　
+			    </div>
+			    <!--  内容二 提现 -->　
+			    <div class="right-con tixian">
+			    	<div class="right-con2">
+			    		<h3>提现</h3>
+			    		<br><br>
+			    		<h4>暂无记录</h4>
+			    	</div>
+			    </div>
+			    <!--  内容三 银行卡列表 -->　
+			    <div class="right-con">
+			    	<div class="right-con2">
+			    		<h3>银行卡列表</h3>
+			    		<h5>银行卡信息：</h5>
+			    		<div >
+			    			<a href="#" id="yhkl"><img src="images/bankCard.png" alt="添加银行卡"></a>
+			    		</div>
+			    	</div>
+			    </div>
+			    	<!--  内容4 资金日志 -->　
+			    <div class="chzh">
+			    	<div class="right-con">
+			    		<div class="right-con2">
+					    	<h3>资金日志</h3>
+					    	<div class="zjrzh clearfix">
+					    		<div class="yue">
+					    			<p class="yue-con">账户余额</p>
+					    			<span>￥0.00元</span>
+					    		</div>
+					    		<div class="zj clearfix">
+					    			<div class="cz">
+					    				<ul class="clearfix">
+					    					<li>可用资金:	￥0.00</li>
+					    					<li>已充值总额: 0.00</li>
+					    					<li><a class="czh" onclick="chongzhi();" href="#">充值</a></li>
+					    				</ul>
+					    				<ul class="clearfix line2">
+					    					<li>冻结资金￥0.00</li>
+					    					<li>已提现总额0.00</li>
+					    					<li><a class="tx" href="#" onclick="tixian();">提现</a></li>
+					    				</ul>
+					    			</div>
+					    		</div>
+					    	</div>
+				        </div>
+			    	</div>
+			    </div>
+			    	<!--  内容5 偿还贷款 -->　
+			    <div class="right-con  hk">
+			    	<div class="right-con2">
+			    		<h3>偿还贷款</h3>
+				    	<br><br>
+				    	<h4>暂无记录</h4>
+				    	<table id="dk1">
+				    		<tr>
+				    			<th>贷款编号</th>
+				    			<th>贷款人</th>
+				    			<th>贷款金额</th>
+				    			<th>手续费利息和</th>
+				    			<th>贷款期限</th>
+				    			<th>贷款日期</th>
+				    			<th>目前状态</th>
+				    			<th>操作</th>
+
+				    		</tr>
+				    		<tr>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td><a href="#">偿还贷款</a></td>
+				    		</tr>
+				    		<tr>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td><a href="#">偿还贷款</a></td>
+				    		</tr>
+				    		<tr>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td><a href="#">偿还贷款</a></td>
+				    		</tr>
+				    	</table>
+			    	</div>
+			    </div>
+			    <!--  内容6 我的贷款 -->　
+			    <div class="right-con">
+			    	<div class="right-con2">
+			    		<h3>我的贷款</h3>
+			    		<h4>暂无记录</h4>
+			    	    <table id="dk2">
+				    		<tr>
+				    			<th>贷款编号</th>
+				    			<th>贷款人</th>
+				    			<th>贷款金额</th>
+				    			<th>手续费利息和</th>
+				    			<th>贷款期限</th>
+				    			<th>贷款日期</th>
+				    			<th>目前状态</th>
+				    		</tr>
+				    		<tr>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    		</tr>
+				    		<tr>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    		</tr>
+				    		<tr>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    			<td>1111111111</td>
+				    		</tr>
+				    	</table>
+			    	</div>
+			    </div>
+			  <!--  内容7 贷款统计 -->　
+			    <div class="right-con">
+				  	<div class="right-con2">
+				  		<h3>贷款统计</h3>
+				  		<table class="dktj">
+				  			<tr>
+				  				<th colspan="4">还款统计</th>
+				  			</tr>
+				  			<tr>
+				  				<td>总借款额</td>
+				  				<td>￥0.00</td>
+				  				<td>发布借款笔数</td>
+				  				<td>0</td>
+				  			</tr>
+				  			<tr>
+				  				<td>已还本息</td>
+				  				<td>￥0.00</td>
+				  				<td>成功借款笔数</td>
+				  				<td>0</td>
+				  			</tr>
+				  			<tr>
+				  				<td>待还本息</td>
+				  				<td>￥0.00</td>
+				  				<td>正常还清笔数</td>
+				  				<td>0</td>
+				  			</tr>
+				  			<tr>
+				  				<td>已还管理费</td>
+				  				<td>￥0.00</td>
+				  				<td>提前还清笔数</td>
+				  				<td>0</td>
+				  			</tr>
+				  			<tr>
+				  				<td>待还管理费</td>
+				  				<td>￥0.00</td>
+				  				<td>未还清笔数</td>
+				  				<td>0</td>
+				  			</tr>
+				  		</table>
+				  		<table class="dktj">
+				  			<tr>
+				  				<th colspan="4">逾期统计</th>
+				  			</tr>
+				  			<tr>
+				  				<td>逾期本息</td>
+				  				<td>￥0.00</td>
+				  				<td>逾期次数</td>
+				  				<td>0</td>
+				  			</tr>
+				  			<tr>
+				  				<td>逾期费用</td>
+				  				<td>￥0.00</td>
+				  				<td>严重逾期次数</td>
+				  				<td>0</td>
+				  			</tr>
+				  		</table>
+				  		<table class="dktj">
+				  			<tr>
+				  				<th colspan="4">借款数据分析</th>
+				  			</tr>
+				  			<tr>
+				  				<td>加权平均借款利率</td>
+				  				<td>￥0.00</td>
+				  				<td>平均每笔借款金额</td>
+				  				<td>0</td>
+				  			</tr>
+				  		</table>
+				  	</div>
+			    </div>
+			   <!--  内容8 个人资料 -->　
+			    <div class="right-con">
+			    	<div class="right-con2">
+			    		<h3>个人资料</h3>
+			    		<div class="edit">
+			    			<p><a href="#">编辑资料</a></p>
+			    		</div>
+			    		<div class="geren-con">
+			    			<div class="geren-pic">
+			    				<img src="images/user-img-no.jpg" alt="用户头像">
+			    			</div>
+			    			<div class="detail clearfix">
+			    				<ul class="clearfix">
+			    					<li><label>*</label>昵称18712737580</li>
+			    				</ul>
+			    				<ul class="clearfix">
+			    					<li><label>*</label>Email  11****@qq.com</li>
+			    					<li><img src="images/pass.png" alt="已经设置">已设置</li>
+			    				</ul>
+			    				<ul class="clearfix">
+			    					<li><label>*</label>真实姓名  ***</li>
+			    					<li><img src="images/noauth.png" alt="尚未设置"><a href="#">去认证</a></li>
+			    				</ul>
+			    				<ul class="clearfix">
+			    					<li><label>*</label>身份证号  *********</li>
+			    					<li><img src="images/noauth.png" alt="尚未设置"><a href="#">去认证</a></li>
+			    				</ul>
+			    				<ul class="clearfix">
+			    					<li><label>*</label>手机号码  187*****580</li>
+			    					<li><img src="images/pass.png" alt="已绑定">已绑定</li>
+			    				</ul>
+			    				<ul class="clearfix">
+			    					<li><label>*</label>性别</li>
+			    				</ul>
+			    				<ul class="clearfix">
+			    					<li><label>*</label>出生日期   0年0月0日 </li>
+			    				</ul>
+			    				<ul class="clearfix">
+			    					<li><label>*</label>最高学历</li>
+			    				</ul>
+			    				<ul class="clearfix">
+			    					<li> &nbsp毕业院校</li>
+			    				</ul>
+			    				<ul class="clearfix">
+			    					<li><label>*</label>婚姻状况</li>
+			    				</ul>
+			    				<ul class="clearfix">
+			    					<li><label>*</label>户口所在地</li>
+			    				</ul>
+			    				<ul class="clearfix">
+			    					<li><label>*</label>居住地址</li>
+			    				</ul>
+			    				<ul class="clearfix">
+			    					<li>&nbsp电话</li>
+			    				</ul>
+			    				<br><br>
+			    			</div>
+			    		</div>
+			    	</div>
+			    </div>
+			       <!--  内容8 认证信息 -->　
+			    <div class="right-con">
+			    	<div class="right-con2">
+			    		<h3>认证信息</h3>
+			    		<div class="edit clearfix">
+			    			<div class="p1 clearfix">
+			    				<ul class="clearfix">
+			    					<li>我的信用等级：<img src="images/b.png" alt="信用等级">(600)</li>
+			    					<li>我的信用额度：0 (可用额度：0)
+			    					</li>
+			    				</ul>
+			    			</div>
+			    			<div class="p2">
+			    				<a class="sqdk" href="#">申请贷款</a>
+			    				<a class="zlrz" href="#">资料认证</a>
+			    			</div>
+			    		</div>
+			    		<div class="xinyong">
+			    			<table>
+			    				<tr>
+			    					<th colspan="9" class="bg1">信用等级及对应信用分数
+			    					</th>
+			    				</tr>
+			    				<tr  class="bg2">
+			    					<td>信用等级</td>
+			    					<td><img src="images/AAA.png" alt="AAA级"></td>
+			    					<td><img src="images/AA.png" alt="AA级"></td>
+			    					<td><img src="images/A.png" alt="A级"></td>
+			    					<td><img src="images/B.png" alt="B级"></td>
+			    					<td><img src="images/C.png" alt="C级"></td>
+			    					<td><img src="images/D.png" alt="D级"></td>
+			    					<td><img src="images/E.png" alt="E级"></td>
+			    					<td><img src="images/HR.png" alt="HR级"></td>	
+			    				</tr>
+			    				<tr class="bg2">
+			    					<td>信用分数</td>
+			    					<td>850及以上</td>
+			    					<td>849-750	</td>
+			    					<td>749-650</td>
+			    					<td>649-600</td>
+			    					<td>599-550</td>
+			    					<td>549-500</td>
+			    					<td>499-450</td>
+			    					<td>449-0</td>
+			    				</tr>
+			    			</table>
+			    			<table class="xinyong-con">
+			    				<tr  class="bg1">
+			    					<th><br></th>
+			    					<th>项目</th>
+			    					<th>状态</th>
+			    					<th>信用分数</th>
+			    				</tr>
+			    				<tr>
+			    					<td class="bg2">基本信息</td>
+			    					<td class="bg2">个人详细信息，工作信息</td>
+			    					<td  class="bg2"></td>
+			    					<td><span>600</span>分</td>
+			    				</tr>
+			    				<tr>
+			    					<td rowspan="3"><b>必要信用认证</b></td>
+			    					<td>实名认证 (2分)</td>
+			    					<td><img src="images/credit_warning.png" alt="待认证"></td>
+			    					<td rowspan="3"></td>
+			    				</tr>
+			    				<tr>
+			    					<td  class="bg2">教育认证 (2分)</td>
+			    					<td  class="bg2"><img src="images/credit_warning.png" alt="待认证"></td>
+			    				</tr>
+			    				<tr>
+			    					<td>联系人认证 (1分)</td>
+			    					<td><img src="images/credit_warning.png" alt="待认证"></td>
+			    				</tr>
+			    				<tr>
+			    					<td rowspan="3"><b>校园V速贷时代官网记录</b></td>
+			    					<td  class="bg2">还清笔数（+25分/笔，加分间隔28天，上限45分）</td>
+			    					<td  class="bg2">0 笔</td>
+			    					<td  class="bg2"><span>0</span>分</td>
+			    				</tr>
+			    				<tr>
+			    					<td>逾期次数（-20分/次）</td>
+			    					<td>0 次</td>
+			    					<td><span>0</span>分</td>
+			    				</tr>
+			    				<tr>
+			    					<td  class="bg2">严重逾期次数（-100分/次）</td>
+			    					<td  class="bg2">0 次</td>
+			    					<td  class="bg2"><span>0</span>分</td>
+			    				</tr>
+			    			</table>
+			    			<br>
+			    			<br>
+			    		</div>
+
+			    	</div>
+			    </div>
+			    <!--  内容9 安全信息 -->　
+			    <div class="right-con">
+			    	<div class="right-con2 anqxx">
+			    		<h3>安全信息</h3>
+			    		<ul class="aqxx clearfix">
+			    			<li class="list1"><i class="icon-user"></i></li>
+			    			<li class="list2">昵称</li>
+			    			<li class="list3">已设置</li>
+			    			<li class="list4">18712737580</li>
+			    		</ul>
+			    		<ul class="aqxx clearfix">
+			    			<li class="list1"><i class=" icon-user-md"></i></li>
+			    			<li class="list2">实名认证</li>
+			    			<li class="list3"><b>未设置</b></li>
+			    			<li class="list4"><a href="#">认证</a></li>
+			    		</ul>
+			    		<ul class="aqxx clearfix">
+			    			<li class="list1"><i class=" icon-lock"></i></li>
+			    			<li class="list2">登录密码</li>
+			    			<li class="list3">已设置</li>
+			    			<li class="list4"><label>修改/取消修改</label></li>
+			    		</ul>
+			    		<div class="aqxx1">
+			    			<form action="#">
+			    				旧密码：<input type="text"><br>
+			    				新密码：<input type="text"><br>
+			    				确认密码：<input type="text"><br>
+			    				<input type="submit" value="确认更改" class="submit">
+			    			</form>
+			    		</div>
+			    		<ul class="aqxx clearfix">
+			    			<li class="list1"><i class=" icon-envelope-alt"></i></li>
+			    			<li class="list2">绑定邮箱</li>
+			    			<li class="list3">已设置 11****@qq.com</li>
+			    			<li class="list4"><label>修改/取消修改</label></li>
+			    		</ul>
+			    		<div class="aqxx1">
+			    			<form action="#">
+			    				旧邮箱号：<input type="text"><br>
+			    				新邮箱号：<input type="text"><br>
+			    				确认手机号：<input type="text"><br>
+			    				<input type="submit" value="确认更改" class="submit">
+			    			</form>
+			    		</div>
+			    		<ul class="aqxx clearfix">
+			    			<li class="list1"><i class=" icon-mobile-phone"></i></li>
+			    			<li class="list2">绑定手机</li>
+			    			<li class="list3">187*****580</li>
+			    			<li class="list4"><label>修改/取消修改</label></li>
+			    		</ul>
+			    		<div class="aqxx1">
+			    			<form action="#">
+			    				旧手机号：<input type="text"><br>
+			    				新手机号：<input type="text"><br>
+			    				确认手机号：<input type="text"><br>
+			    				<input type="submit" value="确认更改" class="submit">
+			    			</form>
+			    		</div>
+			    		<ul class="aqxx clearfix">
+			    			<li class="list1"><i class="icon-key"></i></li>
+			    			<li class="list2">支付密码</li>
+			    			<li class="list3"><b>未设置</b></li>
+			    			<li class="list4"><label>修改/取消修改</label></li>
+			    		</ul>
+			    		<div class="aqxx1">
+			    			<form action="#">
+			    				支付密码：<input type="text"><br>
+			    				确认密码：<input type="text"><br>
+			    				验证码：<input type="text"><br>
+			    				<input type="submit" value="确认更改" class="submit">
+			    			</form>
+			    		</div>
+			    		<br>
+			    		<br>
+			    	</div>
+			    </div>
+			    <!--  内容10 个人消息 -->　
+			    <div class="right-con">
+			    	<div class="right-con2 grxx">
+			    		<h3>个人消息</h3>
+			    		<ul class="clearfix">
+			    			<li class="grxx-icon"><i class="icon-envelope"></i></li>
+			    			<li>系统通知<br>
+			    				共1封<br>
+			    				2016-02-24
+			    			</li>
+			    			<li><b>
+			    				尊敬的用户18712737580：<br>
+			    				您的信用等级升级为：B<br>
+			    				【V贷君】恭喜您，您的信用等级升级到B
+			    			</b>
+			    			</li>
+			    		</ul>
+			    		<h4>1 条记录 1/1 页
+						</h4>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 添加银行卡界面 -->
+<div class="yhk">
+		<div class="yhk-a">
+		<h3 class="clearfix">
+			<span>请选择银行</span>
+			<div id="close"></div>
+		</h3>	
+		<div class="yhk-de">
+			<ul class="clearfix">
+				<li><img src="images/1.jpg" alt=""></li>
+				<li><img src="images/2.jpg" alt=""></li>
+				<li><img src="images/3.jpg" alt=""></li>
+				<li><img src="images/4.jpg" alt=""></li>
+				<li><img src="images/5.jpg" alt=""></li>
+			</ul>
+			<ul class="clearfix">
+				<li><img src="images/6.jpg" alt=""></li>
+				<li><img src="images/7.jpg" alt=""></li>
+				<li><img src="images/8.jpg" alt=""></li>
+				<li><img src="images/9.jpg" alt=""></li>
+				<li><img src="images/10.jpg" alt=""></li>
+			</ul>
+			<ul class="clearfix">
+				<li><img src="images/11.jpg" alt=""></li>
+				<li><img src="images/12.jpg" alt=""></li>
+				<li><img src="images/13.jpg" alt=""></li>
+				<li><img src="images/14.jpg" alt=""></li>
+				<li><img src="images/15.jpg" alt=""></li>
+			</ul>
+			<ul class="clearfix">
+				<li><img src="images/16.jpg" alt=""></li>
+				<li><img src="images/17.jpg" alt=""></li>
+				<li><img src="images/18.jpg" alt=""></li>
+				<li><img src="images/19.jpg" alt=""></li>
+				<li><img src="images/20.jpg" alt=""></li>
+			</ul>
+			<ul class="clearfix">
+				<li><img src="images/21.jpg" alt=""></li>
+			</ul>
+		</div>
+		</div>
+		<div class="yhk-b">
+			<h3 class="clearfix">
+				<span>请选择银行</span>
+				<div id="close1"></div>
+			</h3>	
+			<div class="img"></div>
+		    <div class="info">
+		    	<form action="#">
+		    		<span>银行卡号：</span><input type="text"><br>
+		    		<span>姓名：</span><input type="text"><br>
+		    		<span>身份证号码：</span><input type="text"><br>
+		    		<span>银行预留手机号：</span><input type="text"><br>
+		    		<input type="submit" class="submit">
+		    	</form>
+		    </div>
+		</div>
+</div>
+<!-- 添加银行卡界面 -->
+<!-- 右侧客服 -->
+<div id="top"></div>
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+</div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+<div class="footer clearfix">
+		<div class="container clearfix">
+			<div class="footer-one">
+				<div class="footer-title">友情链接:</div>
+				<ul>
+					<li><a href="#">资产交易网</a> <a href="#"> 网贷之家</a> </li>
+					<li><a href="#"> 原油返佣网</a> <a href="#"> Q板挂牌</a> </li>
+					<li><a href="#">网贷港湾</a> <a href="#"> 网贷110 </a> </li>
+					<li><a href="#">绿化贷理财</a> <a href="#"> 银行理财</a> </li>
+				</ul>
+			</div>
+           
+			<div class="footer-one">
+				<div class="footer-title">关于我们</div>
+				<ul>
+					<li><a href="#">资产交易网</a> <a href="#"> 网贷之家</a> </li>
+					<li><a href="#"> 原油返佣网</a> <a href="#"> Q板挂牌</a> </li>
+					<li><a href="#">网贷港湾</a> <a href="#"> 网贷110 </a> </li>
+				</ul>
+			</div>
+			<div class="footer-one">
+				<div class="code"><img src="images/dt-code.PNG"></div>
+				<div class="code-info"><p>扫描二维码</p><p>关注买手机网公众号</p></div>
+				
+			</div>
+			 <div class="footer-one">
+				<div class="footer-title">关于我们</div>
+				<ul>
+					<li><a href="#">资产交易网</a> <a href="#"> 网贷之家</a> </li>
+					<li><a href="#"> 原油返佣网</a> <a href="#"> Q板挂牌</a> </li>
+					<li><a href="#">网贷港湾</a> <a href="#"> 网贷110 </a> </li>
+				</ul>
+			</div>
+			<div class="footer-one">
+				<div class="footer-title">友情链接：</div>
+				<ul>
+					<li><a href="#">资产交易网</a> <a href="#"> 网贷之家</a> </li>
+					<li><a href="#"> 原油返佣网</a> <a href="#"> Q板挂牌</a> </li>
+					<li><a href="#">网贷港湾</a> <a href="#"> 网贷110 </a> </li>
+					<li><a href="#">绿化贷理财</a> <a href="#"> 银行理财</a> </li>
+				</ul>
+			</div>
+			
+		</div>
+		
+			<div class="copyright clearfix">
+				<span>©2015 myPhone.com 版权所有。沪ICP备10038086号-1</span>
+				<a href="#"><img src="images/copyright.png"></a>
+		    </div>
+	</div>
+</body>
+</html>
